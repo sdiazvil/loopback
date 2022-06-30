@@ -3,7 +3,7 @@ import {Entity, model, property} from '@loopback/repository';
 @model({
   settings: {
     postgresql: {
-      table: 'newtable'
+      table: 'contactos'
     }, strict: true
   }
 })
@@ -27,11 +27,11 @@ export class Persona extends Entity {
   })
   apellido: string;
 
-  @property({
-    type: 'string',
-    required: false,
-  })
-  ciudad: string;
+  // @property({
+  //   type: 'string',
+  //   required: false,
+  // })
+  // ciudad: string;
 
   // Define well-known properties here
 

@@ -4,11 +4,11 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'pgdb',
   connector: 'postgresql',
-  url: 'postgres://sdiazvil:Amaro2211*@prueba-loopback.postgres.database.azure.com/postgres?sslmode=require',
-  host: 'prueba-loopback.postgres.database.azure.com',
+  url: 'postgres://postgres:amaro2211@127.0.0.1:5432/postgres',
+  host: '127.0.0.1',
   port: 5432,
-  user: 'sdiazvil',
-  password: 'Amaro2211*',
+  user: 'postgres',
+  password: 'amaro2211',
   database: 'postgres'
 };
 
